@@ -19,7 +19,7 @@ st.set_page_config(
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-st.title("⚡ Groq AI ChatBot ")
+st.title("⚡ NovaChat AI – Groq-Powered Chatbot ")
 
 # ✅ Show chat history
 for msg in st.session_state.chat_history:
