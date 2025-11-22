@@ -2,6 +2,8 @@ import os
 import json
 import streamlit as st
 from groq import Groq
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 
 # Load API key from config.json
 working_dir = os.path.dirname(os.path.abspath(__file__))
